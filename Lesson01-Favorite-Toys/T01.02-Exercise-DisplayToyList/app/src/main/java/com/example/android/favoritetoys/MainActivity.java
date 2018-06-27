@@ -21,6 +21,7 @@ import android.support.v7.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     // TODO (1) Declare a TextView variable called mToysListTextView
+    mToysListTextView = (TextView) findViewById(R.id.tv_toy_names);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
